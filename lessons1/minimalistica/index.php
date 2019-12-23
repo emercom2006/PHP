@@ -54,8 +54,8 @@ $date = date(Y);
 		</div>
 		
 		<div id="footer">
-			
-			<p>Copyright <?php echo $date ?> &copy; <em>minimalistica</em> &middot; Design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
+
+			<p>Copyright <?=echo $date ?> &copy; <em>minimalistica</em> &middot; Design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
 		</div>	
 	</div>
 
