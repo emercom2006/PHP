@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <?php
-$h1 ='minimalistica';
+$h1 = 'minimalistica';
 $title = 'minimalistica';
 $date = date(Y);
 ?>
@@ -12,12 +12,12 @@ $date = date(Y);
 	<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 	<meta name="author" content="Luka Cvrk (www.solucija.com)"/>
 	<link rel="stylesheet" href="css/main.css" type="text/css"/>
-	<title><?php echo $title ?></title>
+	<title><?= $title ?></title>
 </head>
 <body>
 
 	<div id="content">
-		<h1><?php echo $h1 ?></h1>
+		<h1><?= $h1 ?></h1>
 		
 		<ul id="menu">
 			<li><a href="#">home</a></li>
@@ -55,7 +55,7 @@ $date = date(Y);
 		
 		<div id="footer">
 
-			<p>Copyright <?=echo $date ?> &copy; <em>minimalistica</em> &middot; Design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
+			<p>Copyright <?= $date ?> &copy; <em>minimalistica</em> &middot; Design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
 		</div>	
 	</div>
 
