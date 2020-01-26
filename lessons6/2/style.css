@@ -1,0 +1,15 @@
+form.CALC {
+    display: block;
+    margin: auto;
+    width: 300px;
+    border: 1px solid #cccccc;
+    padding: 5px;}
+form.CALC input[type="number"] {
+    padding: 7px;
+    margin: 4px;
+    width: 220px;}
+form.CALC input[type="submit"] {
+    width: 95%;
+    margin: 5px;
+    padding: 10px;}
+form div {text-align:center;}
