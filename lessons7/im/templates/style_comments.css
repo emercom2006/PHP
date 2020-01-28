@@ -1,0 +1,25 @@
+form.comments {
+    display: block;
+    margin: auto;
+    width: 400px;
+    border: 1px solid #cccccc;
+    padding: 5px;}
+form.comments input[type="number"] {
+    padding: 7px;
+    margin: 4px;
+    width: 220px;}
+form.comments input[type="submit"] {
+    width: 100px;
+    margin: 5px;
+    padding: 10px;}
+form div {text-align:center;}
+div.comments p{
+    display: block;
+    margin: auto;
+    width: 400px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    text-align:center;
+    border-radius: 25px;
+    margin-top: 5px;
+}
